@@ -11,6 +11,7 @@ namespace Timeshift.Test
         public BaseOperatorClass()
         {
             /* windows handles time zones differently than the ISO standard. */
+            bool isWindows = true;
             if(isWindows)
             {
                 zone = TimeZoneInfo.FindSystemTimeZoneById("Eastern Standard Time");
@@ -32,7 +33,7 @@ namespace Timeshift.Test
         {
             _today = new DateTime(2018, 7, 1, 22, 0, 0, DateTimeKind.Utc);
             var daysUntil = ((int)DayOfWeek.Monday - (int)_today.DayOfWeek + 7) % 7;
-            _today = _today.AddDays(daysUntil);
+            _today = _today.AddDays(daysUntil);     
         }
         protected void SetupMondayAtNoonDaylightSavingsTime()
         {
