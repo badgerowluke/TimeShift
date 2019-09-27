@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "timeshift.core", "timeshift.core\timeshift.core.csproj", "{06FB2255-8702-44A6-8F53-7BC186E0B778}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timeshift.Core", "Timeshift.Core\Timeshift.Core.csproj", "{06FB2255-8702-44A6-8F53-7BC186E0B778}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "timeshift.test", "timeshift.test\timeshift.test.csproj", "{792F0077-69BA-4699-A011-9DA0CE1F6A9C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timeshift.Test", "Timeshift.Test\Timeshift.Test.csproj", "{792F0077-69BA-4699-A011-9DA0CE1F6A9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
